@@ -17,6 +17,7 @@ defineProps({
         &:hover {
             border-bottom: 5px solid blue;
             color: blue;
+            padding-bottom: calc(4.5em - 5px);
         }
     }
 </style>
