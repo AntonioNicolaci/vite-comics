@@ -1,19 +1,22 @@
 <script>
 import Header from './components/Header.vue';
-import ComponentPage from './components/ContentPage.vue'
+import ContentPage from './components/ContentPage.vue'
+import LinkBar from './components/LinkBar.vue';
 
 export default {
   
   components: {
   Header,
-  ComponentPage,
+  ContentPage,
+  LinkBar,
 }
 }
 </script>
 
 <template>
   <Header></Header>
-  <ComponentPage></ComponentPage>
+  <ContentPage />
+  <LinkBar />
 </template>
 
 <style scoped>
