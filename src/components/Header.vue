@@ -74,6 +74,9 @@ export default {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: fixed;
+        background-color: #fff;
+        width: 100%;
     }
     #divButton {
         display: flex;
