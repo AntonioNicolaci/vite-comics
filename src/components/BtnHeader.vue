@@ -1,21 +1,26 @@
-<script setup>
-defineProps({
-  btnString: String,
-})
+<script>
+export default {
+    props: {
+        btnString: String,
+        link: String,
+    }
+}
 </script>
 
 <template>
-    <button>{{ btnString }}</button>
+    <a :href="link">{{ btnString }}</a>
 </template>
 
 <style lang="scss" scoped>
-    button {
-        padding-block: 4.5em;
+    a {
+        --font-padding: 4em;
+        padding-block: var(--font-padding);
+        font-weight: bold;
         
-        &:hover {
-            border-bottom: 5px solid #0282F9;
-            color: #0282F9;
-            padding-bottom: calc(4.5em - 5px);
+        &:hover, &:active {
+                border-bottom: 5px solid #0282F9;
+                color: #0282F9;
+                padding-bottom: calc(var(--font-padding) - 5px);
         }
     }
 </style>
