@@ -50,7 +50,7 @@ export default {
         </div>
             
         <div id="signUp">
-            <button>SIGN-UP NOW!</button>
+            <a href="#">SIGN-UP</a>
             <div>
                 <span>FOLLOW US</span>
                 <img src="../assets/img/footer-facebook.png" alt="facebook">
@@ -110,7 +110,7 @@ export default {
         align-items: center;
         padding-block: 2em;
 
-        button {
+        a {
             border: 3px solid #0282F9;
             color: #fff;
             padding: 1em;
