@@ -1,14 +1,12 @@
-<script lang="js">
+<script>
 export default {
-    
-}
-
-defineProps({
+    props: {
         thumb: String, // link immagine
         price: String, // prezzo
         series: String, // serie del fumetto
         type: String, // tipo di fumetto
-    })
+    }    
+}
 </script>
 
 <template>
@@ -17,6 +15,6 @@ defineProps({
     </div>
 </template>
 
-<style lang="" scoped>
+<style lang="scss" scoped>
     
 </style>
