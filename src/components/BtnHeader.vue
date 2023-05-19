@@ -8,10 +8,8 @@ defineProps({
     <button>{{ btnString }}</button>
 </template>
 
-<style lang="scss" scoep>
+<style lang="scss" scoped>
     button {
-        background-color: rgba(0, 0, 0, 0);
-        border: none;
         padding-block: 4.5em;
         
         &:hover {
