@@ -45,9 +45,8 @@ export default {
                 string: 'SHOP',
                 link: '#'
             }
-        ]
+            ]
         }
-        
     },
     
     components: {
@@ -63,7 +62,7 @@ export default {
         <div id="divButton">
             <BtnHeader v-for="btnString in btnArray"
             :btnString="btnString.string" 
-            :link="btnString.link"/> 
+            :link="btnString.link"/>
         </div>
     </header>
     
@@ -77,6 +76,7 @@ export default {
         position: fixed;
         background-color: #fff;
         width: 100%;
+        z-index: 100;
     }
     #divButton {
         display: flex;
