@@ -1,6 +1,6 @@
 <script>
 import Header from './components/Header.vue';
-// import MainPage from './components/MainPage.vue';
+import MainPage from './components/MainPage.vue';
 import LinkBar from './components/LinkBar.vue';
 import FooterPage from './components/FooterPage.vue';
 
@@ -8,7 +8,7 @@ export default {
 
   components: {
     Header,
-    // MainPage,
+    MainPage,
     LinkBar,
     FooterPage,
   }
@@ -17,7 +17,7 @@ export default {
 
 <template>
   <Header></Header>
-  <!-- <MainPage /> -->
+  <MainPage />
   <LinkBar />
   <FooterPage />
 </template>
@@ -30,6 +30,5 @@ export default {
   }
   a {
     text-decoration: none;
-    color: #000;
   }
 </style>
