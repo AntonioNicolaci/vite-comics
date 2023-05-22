@@ -12,10 +12,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-    a {
+@import 'style.scss';
+    a, a:visited {
         --font-padding: 4em;
         padding-block: var(--font-padding);
         font-weight: bold;
+        color: #000;
         
         &:hover, &:active {
                 border-bottom: 5px solid #0282F9;
