@@ -12,7 +12,7 @@ export default {
     div {
         background: url(../assets/img/jumbotron.jpg) no-repeat;
         background-size: cover;
-        width: 1920px;
+        width: 100%;
         height: 540px;
     }
 </style>
